@@ -1,0 +1,3122 @@
+openapi: 3.0.3
+info:
+  title: Laravel
+  description: ''
+  version: 1.0.0
+servers:
+  -
+    url: 'http://localhost'
+paths:
+  /api/products:
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  products:
+                    -
+                      id: 1
+                      title: 'Pre-emptive 24/7 paradigm'
+                      description: 'Necessitatibus delectus enim rerum repellendus asperiores ex assumenda dolor ad eos.'
+                      currency: nobis
+                      price: 6050
+                      brand: 'Pre-emptive interactive opensystem'
+                      category: Apparel
+                      image: 'http://www.rowe.com/'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 2
+                      title: 'Cloned assymetric frame'
+                      description: 'Quo dicta fugit dolorum porro molestiae pariatur earum culpa.'
+                      currency: doloribus
+                      price: 508
+                      brand: 'Pre-emptive exuding model'
+                      category: Sports
+                      image: 'http://stoltenberg.com/quaerat-odit-eius-sed-illum-ut-sapiente'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 3
+                      title: 'Right-sized composite structure'
+                      description: 'Vel quos cumque perspiciatis at explicabo unde quis.'
+                      currency: maiores
+                      price: 677
+                      brand: 'Organized value-added forecast'
+                      category: Books
+                      image: 'http://gutmann.info/nisi-est-aut-iure-voluptatibus'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 4
+                      title: 'Realigned dynamic strategy'
+                      description: 'Ipsa impedit dolores dolor itaque molestias et nisi dolores.'
+                      currency: perspiciatis
+                      price: 49
+                      brand: 'Synchronised intangible challenge'
+                      category: Apparel
+                      image: 'http://price.com/omnis-inventore-nihil-ut-nam-vitae-doloremque-beatae'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 5
+                      title: 'Object-based actuating array'
+                      description: 'Tempora quia et eligendi odit quia quas dicta nam.'
+                      currency: necessitatibus
+                      price: 759
+                      brand: 'Front-line multimedia info-mediaries'
+                      category: Books
+                      image: 'http://langosh.biz/similique-natus-et-veniam-id-minus.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 6
+                      title: 'User-friendly 6thgeneration functionalities'
+                      description: 'Ea consequatur quidem velit alias.'
+                      currency: omnis
+                      price: 83233
+                      brand: 'Balanced static interface'
+                      category: Gadgets
+                      image: 'http://www.runolfsson.net/sed-ad-quo-est-accusamus-veritatis-animi-culpa'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 7
+                      title: 'Reduced bottom-line neural-net'
+                      description: 'Vel placeat unde ex blanditiis officia praesentium nihil qui.'
+                      currency: esse
+                      price: 74922
+                      brand: 'Triple-buffered asynchronous capability'
+                      category: Sports
+                      image: 'http://sauer.com/nisi-vel-et-et-ut-iusto-suscipit-dolorem.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 8
+                      title: 'Multi-layered systemic solution'
+                      description: 'Quasi accusantium aut et enim accusantium accusamus.'
+                      currency: ex
+                      price: 7103
+                      brand: 'Advanced contextually-based extranet'
+                      category: Sports
+                      image: 'http://mccullough.biz/voluptatem-cum-doloribus-impedit-sit-fugit'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 9
+                      title: 'Programmable well-modulated model'
+                      description: 'Necessitatibus reiciendis pariatur temporibus maxime dicta culpa ipsam ipsa adipisci qui.'
+                      currency: est
+                      price: 94638
+                      brand: 'Enhanced executive strategy'
+                      category: Sports
+                      image: 'http://barton.org/quis-facere-tempore-est-eveniet-corrupti-voluptatem'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 10
+                      title: 'Automated discrete success'
+                      description: 'Iure illum adipisci molestias aut ut laboriosam enim soluta.'
+                      currency: facere
+                      price: 21090634
+                      brand: 'Vision-oriented modular openarchitecture'
+                      category: Gadgets
+                      image: 'https://www.zboncak.org/explicabo-dolorem-minus-iure-quaerat'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 11
+                      title: 'Self-enabling non-volatile processimprovement'
+                      description: 'Voluptatem quis dignissimos iusto cum nobis maxime magnam vitae.'
+                      currency: perferendis
+                      price: 3287
+                      brand: 'Reactive foreground systemengine'
+                      category: Gadgets
+                      image: 'http://kub.org/ducimus-sunt-ut-totam-quo.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 12
+                      title: 'Future-proofed leadingedge encoding'
+                      description: 'Aut autem consequuntur recusandae id quia architecto beatae iusto illo.'
+                      currency: et
+                      price: 5
+                      brand: 'Re-engineered eco-centric product'
+                      category: Gadgets
+                      image: 'http://williamson.com/itaque-minus-eveniet-perspiciatis-distinctio-sed-aut-totam-ut.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 13
+                      title: 'Automated zerodefect architecture'
+                      description: 'Eligendi tenetur expedita rem ab iusto rerum doloremque veniam ut.'
+                      currency: quaerat
+                      price: 20173967
+                      brand: 'Cross-group global workforce'
+                      category: Gadgets
+                      image: 'http://crooks.com/'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 14
+                      title: 'Multi-lateral content-based capability'
+                      description: 'Cumque quia officiis aut nulla qui quis.'
+                      currency: consequuntur
+                      price: 98866
+                      brand: 'Persevering uniform core'
+                      category: Apparel
+                      image: 'http://www.armstrong.info/possimus-libero-quas-eius-voluptas.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 15
+                      title: 'Quality-focused static matrices'
+                      description: 'Ut in aspernatur sint nesciunt tenetur.'
+                      currency: blanditiis
+                      price: 528393608
+                      brand: 'Reverse-engineered zerotolerance securedline'
+                      category: Fashion
+                      image: 'http://legros.org/aspernatur-et-sequi-repellat-dolorem-id-hic'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 16
+                      title: 'Persistent tertiary encoding'
+                      description: 'At voluptates fuga saepe dignissimos id sunt.'
+                      currency: itaque
+                      price: 8742039
+                      brand: 'Digitized 4thgeneration solution'
+                      category: Books
+                      image: 'https://harris.com/sit-rerum-sint-dolores-rerum-voluptate-aut.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 17
+                      title: 'Team-oriented 24hour internetsolution'
+                      description: 'Voluptates non consequatur quia eaque asperiores exercitationem ut consequatur ducimus.'
+                      currency: maxime
+                      price: 5560970
+                      brand: 'Diverse eco-centric product'
+                      category: Sports
+                      image: 'http://leffler.com/id-rerum-sed-earum-doloremque'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 18
+                      title: 'Future-proofed dynamic hub'
+                      description: 'Ut qui quia cum iusto voluptate.'
+                      currency: vel
+                      price: 12814
+                      brand: 'Pre-emptive tangible methodology'
+                      category: Art
+                      image: 'https://www.cummings.biz/eum-corrupti-ut-placeat-harum'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 19
+                      title: 'Multi-lateral coherent hardware'
+                      description: 'Pariatur voluptatibus maiores alias nesciunt totam ab ab est tenetur quae totam.'
+                      currency: quidem
+                      price: 1
+                      brand: 'Cross-platform grid-enabled product'
+                      category: Fashion
+                      image: 'http://morar.com/voluptatibus-eaque-inventore-voluptatem-distinctio-qui.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 20
+                      title: 'Implemented full-range task-force'
+                      description: 'Laboriosam quia qui vel quam eius dolore impedit reprehenderit fugiat voluptatem.'
+                      currency: aperiam
+                      price: 5733
+                      brand: 'De-engineered asynchronous software'
+                      category: Gadgets
+                      image: 'https://www.douglas.com/repudiandae-vel-magni-officia-voluptas-saepe-dolor-culpa'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 21
+                      title: 'Reduced client-driven challenge'
+                      description: 'Voluptatum ut odit cum aut et incidunt est similique explicabo culpa veritatis.'
+                      currency: et
+                      price: 0
+                      brand: 'Devolved assymetric customerloyalty'
+                      category: Apparel
+                      image: 'http://larson.com/'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 22
+                      title: 'Ergonomic multi-state capability'
+                      description: 'Voluptate ea dolor omnis deleniti harum sequi non enim tempore.'
+                      currency: magnam
+                      price: 6837285
+                      brand: 'Down-sized foreground flexibility'
+                      category: Sports
+                      image: 'https://www.stracke.com/voluptatem-minima-explicabo-illo-ipsam'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 23
+                      title: 'User-friendly holistic archive'
+                      description: 'Sit dolorum adipisci dicta qui voluptatem sequi et.'
+                      currency: sit
+                      price: 5048204
+                      brand: 'Enhanced 6thgeneration time-frame'
+                      category: Art
+                      image: 'http://www.nitzsche.com/omnis-tempora-aperiam-laudantium-quae.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 24
+                      title: 'Networked real-time workforce'
+                      description: 'Deleniti nihil suscipit omnis illum incidunt cumque.'
+                      currency: non
+                      price: 7404298
+                      brand: 'Universal well-modulated function'
+                      category: Gadgets
+                      image: 'http://mosciski.org/voluptatem-nisi-soluta-cupiditate-natus-qui.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 25
+                      title: 'Distributed grid-enabled initiative'
+                      description: 'Voluptatem unde aut quisquam dolor iusto blanditiis.'
+                      currency: laboriosam
+                      price: 678
+                      brand: 'Ergonomic coherent customerloyalty'
+                      category: Fashion
+                      image: 'http://lakin.com/repellendus-soluta-ut-ipsam-sit-ab-quas-fuga'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 26
+                      title: 'Function-based incremental budgetarymanagement'
+                      description: 'Hic iure veniam possimus ea minima velit cum qui.'
+                      currency: omnis
+                      price: 5
+                      brand: 'Profound dedicated forecast'
+                      category: Sports
+                      image: 'http://www.kertzmann.org/et-expedita-enim-ad-quia-beatae-hic'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 27
+                      title: 'Persevering local leverage'
+                      description: 'Voluptatem quo ut quo aut quod voluptas voluptate est corporis nulla.'
+                      currency: dolores
+                      price: 7378097
+                      brand: 'Networked non-volatile localareanetwork'
+                      category: Apparel
+                      image: 'https://king.com/exercitationem-consequuntur-iste-nihil-ab-ipsam-tempora-ab.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 28
+                      title: 'Automated dedicated moratorium'
+                      description: 'Rerum facilis tempora qui ullam sequi distinctio molestiae occaecati et in.'
+                      currency: quasi
+                      price: 26
+                      brand: 'Synchronised context-sensitive hub'
+                      category: Apparel
+                      image: 'http://roob.net/odio-quos-labore-rerum-libero-maxime-aut-aperiam-tenetur'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 29
+                      title: 'Cross-group neutral extranet'
+                      description: 'Rerum consequuntur velit exercitationem ratione inventore omnis voluptas commodi quis pariatur iste.'
+                      currency: dolorem
+                      price: 82
+                      brand: 'Profit-focused logistical capability'
+                      category: Gadgets
+                      image: 'http://glover.com/adipisci-minus-aut-quas-aut-omnis-suscipit.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 30
+                      title: 'Mandatory logistical superstructure'
+                      description: 'Vero distinctio explicabo magnam consequatur sint pariatur.'
+                      currency: molestias
+                      price: 749528
+                      brand: 'Programmable 24/7 securedline'
+                      category: Sports
+                      image: 'http://www.hegmann.com/cumque-omnis-dolor-dolore-deserunt'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 31
+                      title: 'Enterprise-wide web-enabled parallelism'
+                      description: 'Voluptatibus eos aut et qui sunt adipisci voluptas.'
+                      currency: magni
+                      price: 969810362
+                      brand: 'Proactive explicit instructionset'
+                      category: Apparel
+                      image: 'http://harvey.com/ut-ut-nemo-voluptatem-aut-laborum-eum'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 32
+                      title: 'Object-based 3rdgeneration toolset'
+                      description: 'Ut laboriosam dolores sequi eveniet voluptatem aut.'
+                      currency: recusandae
+                      price: 6
+                      brand: 'Vision-oriented bi-directional openarchitecture'
+                      category: Books
+                      image: 'https://kassulke.com/deserunt-magni-voluptates-sed-non-maiores.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 33
+                      title: 'Re-engineered high-level flexibility'
+                      description: 'Deserunt magni est qui et alias sunt quia.'
+                      currency: laboriosam
+                      price: 61
+                      brand: 'Operative multimedia website'
+                      category: Sports
+                      image: 'https://www.huel.org/autem-magnam-et-sed-quia-quo-ea-quia'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 34
+                      title: 'Upgradable background encryption'
+                      description: 'Deleniti eos sint consequatur fugiat doloribus optio cumque sunt aut.'
+                      currency: deleniti
+                      price: 4561406
+                      brand: 'Universal executive extranet'
+                      category: Sports
+                      image: 'http://www.schoen.org/officia-et-corporis-consequatur.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 35
+                      title: 'Synergistic user-facing approach'
+                      description: 'Consectetur tenetur itaque ut molestiae et asperiores ut ipsum recusandae.'
+                      currency: voluptatibus
+                      price: 56704903
+                      brand: 'Open-architected context-sensitive encoding'
+                      category: Apparel
+                      image: 'http://rohan.org/blanditiis-autem-placeat-minus'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 36
+                      title: 'Phased homogeneous standardization'
+                      description: 'Voluptates veniam at maiores accusamus dolor dolor mollitia quia.'
+                      currency: molestiae
+                      price: 64
+                      brand: 'Up-sized multi-state neural-net'
+                      category: Art
+                      image: 'https://schuster.net/quo-accusantium-reprehenderit-commodi-repellat-facere.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 37
+                      title: 'Team-oriented leadingedge focusgroup'
+                      description: 'Ut ex dicta ipsum est et rerum repellat.'
+                      currency: quibusdam
+                      price: 5
+                      brand: 'Diverse exuding knowledgebase'
+                      category: Books
+                      image: 'http://www.greenholt.org/qui-beatae-eaque-tenetur-iure-error-perferendis-perferendis.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 38
+                      title: 'Multi-channelled client-driven internetsolution'
+                      description: 'Quod eos voluptatibus alias commodi et voluptas magni aliquam eum quaerat.'
+                      currency: ea
+                      price: 270599142
+                      brand: 'Diverse radical interface'
+                      category: Apparel
+                      image: 'http://www.becker.net/omnis-ad-quis-adipisci-dolor-quos'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 39
+                      title: 'Secured background data-warehouse'
+                      description: 'Quibusdam ad rerum esse aperiam voluptatum occaecati nemo atque fugiat dolores.'
+                      currency: et
+                      price: 5
+                      brand: 'Down-sized discrete hardware'
+                      category: Apparel
+                      image: 'http://ullrich.com/et-eius-voluptatibus-id-dolorem-sint-nihil-eius'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 40
+                      title: 'Polarised empowering customerloyalty'
+                      description: 'Dignissimos vitae impedit porro ut natus consequatur ex aut in.'
+                      currency: qui
+                      price: 8
+                      brand: 'Networked contextually-based artificialintelligence'
+                      category: Gadgets
+                      image: 'http://www.lockman.biz/'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 41
+                      title: 'Organic high-level website'
+                      description: 'Numquam est et sint rerum et.'
+                      currency: qui
+                      price: 54041762
+                      brand: 'Enterprise-wide responsive superstructure'
+                      category: Gadgets
+                      image: 'https://www.lowe.info/eius-quaerat-optio-voluptate-quae-ex'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 42
+                      title: 'Fully-configurable attitude-oriented archive'
+                      description: 'Repellendus magnam saepe aspernatur excepturi.'
+                      currency: amet
+                      price: 84433
+                      brand: 'Realigned intangible encryption'
+                      category: Apparel
+                      image: 'http://www.paucek.info/ipsam-et-commodi-magni-rerum-asperiores-cum-est-voluptate'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 43
+                      title: 'Persistent upward-trending capability'
+                      description: 'Reprehenderit quod quia autem non velit.'
+                      currency: et
+                      price: 4718
+                      brand: 'Centralized 24/7 protocol'
+                      category: Gadgets
+                      image: 'http://www.labadie.com/'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 44
+                      title: 'Horizontal content-based systemengine'
+                      description: 'Soluta nisi dolore accusantium magni laudantium est.'
+                      currency: enim
+                      price: 234095650
+                      brand: 'Up-sized incremental forecast'
+                      category: Gadgets
+                      image: 'https://www.bartell.com/ea-voluptatum-facere-assumenda-dolores'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 45
+                      title: 'Cross-platform disintermediate standardization'
+                      description: 'Sint ex ullam beatae dolor fuga aut ducimus minus est.'
+                      currency: aliquam
+                      price: 9
+                      brand: 'Ergonomic multimedia openarchitecture'
+                      category: Apparel
+                      image: 'http://www.hettinger.biz/quod-sit-cupiditate-eaque-eveniet-et-nostrum-quae'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 46
+                      title: 'Self-enabling 6thgeneration contingency'
+                      description: 'Deleniti molestiae soluta nam hic ut quasi eum ea et.'
+                      currency: voluptatem
+                      price: 410
+                      brand: 'Customizable context-sensitive superstructure'
+                      category: Apparel
+                      image: 'http://www.swaniawski.com/aut-quidem-qui-in-facilis'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 47
+                      title: 'Synergized homogeneous knowledgebase'
+                      description: 'Occaecati est facilis illum quos quia.'
+                      currency: sed
+                      price: 58718774
+                      brand: 'Front-line global superstructure'
+                      category: Books
+                      image: 'http://www.swaniawski.com/ut-labore-nisi-aut-aut-illum.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 48
+                      title: 'Grass-roots zerotolerance definition'
+                      description: 'Velit et voluptate omnis odio vero numquam.'
+                      currency: consequatur
+                      price: 0
+                      brand: 'Intuitive impactful localareanetwork'
+                      category: Fashion
+                      image: 'http://jones.info/ut-voluptas-ipsum-possimus-illo-recusandae-quo'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 49
+                      title: 'Reverse-engineered context-sensitive encoding'
+                      description: 'Incidunt doloremque doloremque sint ipsum et.'
+                      currency: quibusdam
+                      price: 827587
+                      brand: 'Optional system-worthy utilisation'
+                      category: Gadgets
+                      image: 'https://dibbert.biz/ut-voluptas-dolorum-et-sed-dolorem.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 50
+                      title: 'Inverse bottom-line hub'
+                      description: 'Ducimus ut voluptatibus quas exercitationem.'
+                      currency: rerum
+                      price: 899694
+                      brand: 'Switchable high-level application'
+                      category: Gadgets
+                      image: 'http://www.brown.com/voluptatem-error-sint-facilis-velit-id-voluptatem.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 51
+                      title: 'Reverse-engineered asynchronous challenge'
+                      description: 'Doloribus est repudiandae consectetur et vel aut quia possimus quis.'
+                      currency: dolores
+                      price: 14886
+                      brand: 'Innovative mission-critical orchestration'
+                      category: Art
+                      image: 'https://www.jast.com/numquam-blanditiis-ullam-mollitia-ex-ullam-unde-voluptatem'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 52
+                      title: 'Function-based upward-trending systemengine'
+                      description: 'Soluta hic earum et magnam sed occaecati.'
+                      currency: aliquam
+                      price: 108
+                      brand: 'Fully-configurable zerotolerance toolset'
+                      category: Gadgets
+                      image: 'http://www.breitenberg.biz/quidem-minima-magni-dolorem-quia-voluptate-reprehenderit-voluptatibus'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 53
+                      title: 'Synergized tertiary utilisation'
+                      description: 'Eos quia reprehenderit sint commodi nostrum unde repellendus laboriosam eos aut voluptatibus.'
+                      currency: eos
+                      price: 860
+                      brand: 'Object-based methodical orchestration'
+                      category: Books
+                      image: 'http://wolff.info/quas-accusantium-inventore-commodi'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 54
+                      title: 'Public-key radical data-warehouse'
+                      description: 'Vero repellat minima id ut est sint autem sunt earum.'
+                      currency: provident
+                      price: 4702733
+                      brand: 'Future-proofed tangible algorithm'
+                      category: Gadgets
+                      image: 'https://lockman.net/consequuntur-a-accusamus-enim-consequatur.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 55
+                      title: 'Innovative mobile forecast'
+                      description: 'Nihil quo repudiandae amet nihil tempore ipsum dolorem placeat.'
+                      currency: ut
+                      price: 553
+                      brand: 'Mandatory user-facing extranet'
+                      category: Books
+                      image: 'http://bergnaum.biz/'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 56
+                      title: 'Diverse uniform capability'
+                      description: 'Dolor accusantium voluptatibus non cupiditate voluptate placeat in quo nam quam quisquam.'
+                      currency: consequatur
+                      price: 27
+                      brand: 'Robust client-driven time-frame'
+                      category: Books
+                      image: 'http://ohara.com/sunt-animi-et-iusto-nihil-vel-qui-et.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 57
+                      title: 'Cross-platform intangible framework'
+                      description: 'Delectus ut iure aut eligendi neque cum.'
+                      currency: ratione
+                      price: 41
+                      brand: 'Operative coherent time-frame'
+                      category: Fashion
+                      image: 'http://www.hudson.com/expedita-eos-aut-odit-consequatur'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 58
+                      title: 'Stand-alone solution-oriented projection'
+                      description: 'Ad quaerat aut itaque labore nesciunt neque fugiat illum maxime.'
+                      currency: ipsa
+                      price: 9946
+                      brand: 'Self-enabling foreground alliance'
+                      category: Sports
+                      image: 'http://www.white.com/nemo-perspiciatis-molestiae-doloribus-praesentium-sequi-hic-quo-et.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 59
+                      title: 'Customer-focused content-based model'
+                      description: 'Tempore et pariatur minus facilis error.'
+                      currency: magnam
+                      price: 80
+                      brand: 'Compatible global strategy'
+                      category: Gadgets
+                      image: 'http://www.gulgowski.com/quia-doloremque-sequi-aut-ut-rerum-sint-facilis-aut'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 60
+                      title: 'Persistent coherent attitude'
+                      description: 'Alias quo illo id delectus iste id.'
+                      currency: ut
+                      price: 14
+                      brand: 'Streamlined transitional hardware'
+                      category: Books
+                      image: 'http://www.cremin.com/assumenda-similique-recusandae-a-ut-et-harum'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                properties:
+                  products:
+                    type: array
+                    example:
+                      -
+                        id: 1
+                        title: 'Pre-emptive 24/7 paradigm'
+                        description: 'Necessitatibus delectus enim rerum repellendus asperiores ex assumenda dolor ad eos.'
+                        currency: nobis
+                        price: 6050
+                        brand: 'Pre-emptive interactive opensystem'
+                        category: Apparel
+                        image: 'http://www.rowe.com/'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 2
+                        title: 'Cloned assymetric frame'
+                        description: 'Quo dicta fugit dolorum porro molestiae pariatur earum culpa.'
+                        currency: doloribus
+                        price: 508
+                        brand: 'Pre-emptive exuding model'
+                        category: Sports
+                        image: 'http://stoltenberg.com/quaerat-odit-eius-sed-illum-ut-sapiente'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 3
+                        title: 'Right-sized composite structure'
+                        description: 'Vel quos cumque perspiciatis at explicabo unde quis.'
+                        currency: maiores
+                        price: 677
+                        brand: 'Organized value-added forecast'
+                        category: Books
+                        image: 'http://gutmann.info/nisi-est-aut-iure-voluptatibus'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 4
+                        title: 'Realigned dynamic strategy'
+                        description: 'Ipsa impedit dolores dolor itaque molestias et nisi dolores.'
+                        currency: perspiciatis
+                        price: 49
+                        brand: 'Synchronised intangible challenge'
+                        category: Apparel
+                        image: 'http://price.com/omnis-inventore-nihil-ut-nam-vitae-doloremque-beatae'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 5
+                        title: 'Object-based actuating array'
+                        description: 'Tempora quia et eligendi odit quia quas dicta nam.'
+                        currency: necessitatibus
+                        price: 759
+                        brand: 'Front-line multimedia info-mediaries'
+                        category: Books
+                        image: 'http://langosh.biz/similique-natus-et-veniam-id-minus.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 6
+                        title: 'User-friendly 6thgeneration functionalities'
+                        description: 'Ea consequatur quidem velit alias.'
+                        currency: omnis
+                        price: 83233
+                        brand: 'Balanced static interface'
+                        category: Gadgets
+                        image: 'http://www.runolfsson.net/sed-ad-quo-est-accusamus-veritatis-animi-culpa'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 7
+                        title: 'Reduced bottom-line neural-net'
+                        description: 'Vel placeat unde ex blanditiis officia praesentium nihil qui.'
+                        currency: esse
+                        price: 74922
+                        brand: 'Triple-buffered asynchronous capability'
+                        category: Sports
+                        image: 'http://sauer.com/nisi-vel-et-et-ut-iusto-suscipit-dolorem.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 8
+                        title: 'Multi-layered systemic solution'
+                        description: 'Quasi accusantium aut et enim accusantium accusamus.'
+                        currency: ex
+                        price: 7103
+                        brand: 'Advanced contextually-based extranet'
+                        category: Sports
+                        image: 'http://mccullough.biz/voluptatem-cum-doloribus-impedit-sit-fugit'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 9
+                        title: 'Programmable well-modulated model'
+                        description: 'Necessitatibus reiciendis pariatur temporibus maxime dicta culpa ipsam ipsa adipisci qui.'
+                        currency: est
+                        price: 94638
+                        brand: 'Enhanced executive strategy'
+                        category: Sports
+                        image: 'http://barton.org/quis-facere-tempore-est-eveniet-corrupti-voluptatem'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 10
+                        title: 'Automated discrete success'
+                        description: 'Iure illum adipisci molestias aut ut laboriosam enim soluta.'
+                        currency: facere
+                        price: 21090634
+                        brand: 'Vision-oriented modular openarchitecture'
+                        category: Gadgets
+                        image: 'https://www.zboncak.org/explicabo-dolorem-minus-iure-quaerat'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 11
+                        title: 'Self-enabling non-volatile processimprovement'
+                        description: 'Voluptatem quis dignissimos iusto cum nobis maxime magnam vitae.'
+                        currency: perferendis
+                        price: 3287
+                        brand: 'Reactive foreground systemengine'
+                        category: Gadgets
+                        image: 'http://kub.org/ducimus-sunt-ut-totam-quo.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 12
+                        title: 'Future-proofed leadingedge encoding'
+                        description: 'Aut autem consequuntur recusandae id quia architecto beatae iusto illo.'
+                        currency: et
+                        price: 5
+                        brand: 'Re-engineered eco-centric product'
+                        category: Gadgets
+                        image: 'http://williamson.com/itaque-minus-eveniet-perspiciatis-distinctio-sed-aut-totam-ut.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 13
+                        title: 'Automated zerodefect architecture'
+                        description: 'Eligendi tenetur expedita rem ab iusto rerum doloremque veniam ut.'
+                        currency: quaerat
+                        price: 20173967
+                        brand: 'Cross-group global workforce'
+                        category: Gadgets
+                        image: 'http://crooks.com/'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 14
+                        title: 'Multi-lateral content-based capability'
+                        description: 'Cumque quia officiis aut nulla qui quis.'
+                        currency: consequuntur
+                        price: 98866
+                        brand: 'Persevering uniform core'
+                        category: Apparel
+                        image: 'http://www.armstrong.info/possimus-libero-quas-eius-voluptas.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 15
+                        title: 'Quality-focused static matrices'
+                        description: 'Ut in aspernatur sint nesciunt tenetur.'
+                        currency: blanditiis
+                        price: 528393608
+                        brand: 'Reverse-engineered zerotolerance securedline'
+                        category: Fashion
+                        image: 'http://legros.org/aspernatur-et-sequi-repellat-dolorem-id-hic'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 16
+                        title: 'Persistent tertiary encoding'
+                        description: 'At voluptates fuga saepe dignissimos id sunt.'
+                        currency: itaque
+                        price: 8742039
+                        brand: 'Digitized 4thgeneration solution'
+                        category: Books
+                        image: 'https://harris.com/sit-rerum-sint-dolores-rerum-voluptate-aut.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 17
+                        title: 'Team-oriented 24hour internetsolution'
+                        description: 'Voluptates non consequatur quia eaque asperiores exercitationem ut consequatur ducimus.'
+                        currency: maxime
+                        price: 5560970
+                        brand: 'Diverse eco-centric product'
+                        category: Sports
+                        image: 'http://leffler.com/id-rerum-sed-earum-doloremque'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 18
+                        title: 'Future-proofed dynamic hub'
+                        description: 'Ut qui quia cum iusto voluptate.'
+                        currency: vel
+                        price: 12814
+                        brand: 'Pre-emptive tangible methodology'
+                        category: Art
+                        image: 'https://www.cummings.biz/eum-corrupti-ut-placeat-harum'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 19
+                        title: 'Multi-lateral coherent hardware'
+                        description: 'Pariatur voluptatibus maiores alias nesciunt totam ab ab est tenetur quae totam.'
+                        currency: quidem
+                        price: 1
+                        brand: 'Cross-platform grid-enabled product'
+                        category: Fashion
+                        image: 'http://morar.com/voluptatibus-eaque-inventore-voluptatem-distinctio-qui.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 20
+                        title: 'Implemented full-range task-force'
+                        description: 'Laboriosam quia qui vel quam eius dolore impedit reprehenderit fugiat voluptatem.'
+                        currency: aperiam
+                        price: 5733
+                        brand: 'De-engineered asynchronous software'
+                        category: Gadgets
+                        image: 'https://www.douglas.com/repudiandae-vel-magni-officia-voluptas-saepe-dolor-culpa'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 21
+                        title: 'Reduced client-driven challenge'
+                        description: 'Voluptatum ut odit cum aut et incidunt est similique explicabo culpa veritatis.'
+                        currency: et
+                        price: 0
+                        brand: 'Devolved assymetric customerloyalty'
+                        category: Apparel
+                        image: 'http://larson.com/'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 22
+                        title: 'Ergonomic multi-state capability'
+                        description: 'Voluptate ea dolor omnis deleniti harum sequi non enim tempore.'
+                        currency: magnam
+                        price: 6837285
+                        brand: 'Down-sized foreground flexibility'
+                        category: Sports
+                        image: 'https://www.stracke.com/voluptatem-minima-explicabo-illo-ipsam'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 23
+                        title: 'User-friendly holistic archive'
+                        description: 'Sit dolorum adipisci dicta qui voluptatem sequi et.'
+                        currency: sit
+                        price: 5048204
+                        brand: 'Enhanced 6thgeneration time-frame'
+                        category: Art
+                        image: 'http://www.nitzsche.com/omnis-tempora-aperiam-laudantium-quae.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 24
+                        title: 'Networked real-time workforce'
+                        description: 'Deleniti nihil suscipit omnis illum incidunt cumque.'
+                        currency: non
+                        price: 7404298
+                        brand: 'Universal well-modulated function'
+                        category: Gadgets
+                        image: 'http://mosciski.org/voluptatem-nisi-soluta-cupiditate-natus-qui.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 25
+                        title: 'Distributed grid-enabled initiative'
+                        description: 'Voluptatem unde aut quisquam dolor iusto blanditiis.'
+                        currency: laboriosam
+                        price: 678
+                        brand: 'Ergonomic coherent customerloyalty'
+                        category: Fashion
+                        image: 'http://lakin.com/repellendus-soluta-ut-ipsam-sit-ab-quas-fuga'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 26
+                        title: 'Function-based incremental budgetarymanagement'
+                        description: 'Hic iure veniam possimus ea minima velit cum qui.'
+                        currency: omnis
+                        price: 5
+                        brand: 'Profound dedicated forecast'
+                        category: Sports
+                        image: 'http://www.kertzmann.org/et-expedita-enim-ad-quia-beatae-hic'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 27
+                        title: 'Persevering local leverage'
+                        description: 'Voluptatem quo ut quo aut quod voluptas voluptate est corporis nulla.'
+                        currency: dolores
+                        price: 7378097
+                        brand: 'Networked non-volatile localareanetwork'
+                        category: Apparel
+                        image: 'https://king.com/exercitationem-consequuntur-iste-nihil-ab-ipsam-tempora-ab.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 28
+                        title: 'Automated dedicated moratorium'
+                        description: 'Rerum facilis tempora qui ullam sequi distinctio molestiae occaecati et in.'
+                        currency: quasi
+                        price: 26
+                        brand: 'Synchronised context-sensitive hub'
+                        category: Apparel
+                        image: 'http://roob.net/odio-quos-labore-rerum-libero-maxime-aut-aperiam-tenetur'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 29
+                        title: 'Cross-group neutral extranet'
+                        description: 'Rerum consequuntur velit exercitationem ratione inventore omnis voluptas commodi quis pariatur iste.'
+                        currency: dolorem
+                        price: 82
+                        brand: 'Profit-focused logistical capability'
+                        category: Gadgets
+                        image: 'http://glover.com/adipisci-minus-aut-quas-aut-omnis-suscipit.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 30
+                        title: 'Mandatory logistical superstructure'
+                        description: 'Vero distinctio explicabo magnam consequatur sint pariatur.'
+                        currency: molestias
+                        price: 749528
+                        brand: 'Programmable 24/7 securedline'
+                        category: Sports
+                        image: 'http://www.hegmann.com/cumque-omnis-dolor-dolore-deserunt'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 31
+                        title: 'Enterprise-wide web-enabled parallelism'
+                        description: 'Voluptatibus eos aut et qui sunt adipisci voluptas.'
+                        currency: magni
+                        price: 969810362
+                        brand: 'Proactive explicit instructionset'
+                        category: Apparel
+                        image: 'http://harvey.com/ut-ut-nemo-voluptatem-aut-laborum-eum'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 32
+                        title: 'Object-based 3rdgeneration toolset'
+                        description: 'Ut laboriosam dolores sequi eveniet voluptatem aut.'
+                        currency: recusandae
+                        price: 6
+                        brand: 'Vision-oriented bi-directional openarchitecture'
+                        category: Books
+                        image: 'https://kassulke.com/deserunt-magni-voluptates-sed-non-maiores.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 33
+                        title: 'Re-engineered high-level flexibility'
+                        description: 'Deserunt magni est qui et alias sunt quia.'
+                        currency: laboriosam
+                        price: 61
+                        brand: 'Operative multimedia website'
+                        category: Sports
+                        image: 'https://www.huel.org/autem-magnam-et-sed-quia-quo-ea-quia'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 34
+                        title: 'Upgradable background encryption'
+                        description: 'Deleniti eos sint consequatur fugiat doloribus optio cumque sunt aut.'
+                        currency: deleniti
+                        price: 4561406
+                        brand: 'Universal executive extranet'
+                        category: Sports
+                        image: 'http://www.schoen.org/officia-et-corporis-consequatur.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 35
+                        title: 'Synergistic user-facing approach'
+                        description: 'Consectetur tenetur itaque ut molestiae et asperiores ut ipsum recusandae.'
+                        currency: voluptatibus
+                        price: 56704903
+                        brand: 'Open-architected context-sensitive encoding'
+                        category: Apparel
+                        image: 'http://rohan.org/blanditiis-autem-placeat-minus'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 36
+                        title: 'Phased homogeneous standardization'
+                        description: 'Voluptates veniam at maiores accusamus dolor dolor mollitia quia.'
+                        currency: molestiae
+                        price: 64
+                        brand: 'Up-sized multi-state neural-net'
+                        category: Art
+                        image: 'https://schuster.net/quo-accusantium-reprehenderit-commodi-repellat-facere.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 37
+                        title: 'Team-oriented leadingedge focusgroup'
+                        description: 'Ut ex dicta ipsum est et rerum repellat.'
+                        currency: quibusdam
+                        price: 5
+                        brand: 'Diverse exuding knowledgebase'
+                        category: Books
+                        image: 'http://www.greenholt.org/qui-beatae-eaque-tenetur-iure-error-perferendis-perferendis.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 38
+                        title: 'Multi-channelled client-driven internetsolution'
+                        description: 'Quod eos voluptatibus alias commodi et voluptas magni aliquam eum quaerat.'
+                        currency: ea
+                        price: 270599142
+                        brand: 'Diverse radical interface'
+                        category: Apparel
+                        image: 'http://www.becker.net/omnis-ad-quis-adipisci-dolor-quos'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 39
+                        title: 'Secured background data-warehouse'
+                        description: 'Quibusdam ad rerum esse aperiam voluptatum occaecati nemo atque fugiat dolores.'
+                        currency: et
+                        price: 5
+                        brand: 'Down-sized discrete hardware'
+                        category: Apparel
+                        image: 'http://ullrich.com/et-eius-voluptatibus-id-dolorem-sint-nihil-eius'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 40
+                        title: 'Polarised empowering customerloyalty'
+                        description: 'Dignissimos vitae impedit porro ut natus consequatur ex aut in.'
+                        currency: qui
+                        price: 8
+                        brand: 'Networked contextually-based artificialintelligence'
+                        category: Gadgets
+                        image: 'http://www.lockman.biz/'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 41
+                        title: 'Organic high-level website'
+                        description: 'Numquam est et sint rerum et.'
+                        currency: qui
+                        price: 54041762
+                        brand: 'Enterprise-wide responsive superstructure'
+                        category: Gadgets
+                        image: 'https://www.lowe.info/eius-quaerat-optio-voluptate-quae-ex'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 42
+                        title: 'Fully-configurable attitude-oriented archive'
+                        description: 'Repellendus magnam saepe aspernatur excepturi.'
+                        currency: amet
+                        price: 84433
+                        brand: 'Realigned intangible encryption'
+                        category: Apparel
+                        image: 'http://www.paucek.info/ipsam-et-commodi-magni-rerum-asperiores-cum-est-voluptate'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 43
+                        title: 'Persistent upward-trending capability'
+                        description: 'Reprehenderit quod quia autem non velit.'
+                        currency: et
+                        price: 4718
+                        brand: 'Centralized 24/7 protocol'
+                        category: Gadgets
+                        image: 'http://www.labadie.com/'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 44
+                        title: 'Horizontal content-based systemengine'
+                        description: 'Soluta nisi dolore accusantium magni laudantium est.'
+                        currency: enim
+                        price: 234095650
+                        brand: 'Up-sized incremental forecast'
+                        category: Gadgets
+                        image: 'https://www.bartell.com/ea-voluptatum-facere-assumenda-dolores'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 45
+                        title: 'Cross-platform disintermediate standardization'
+                        description: 'Sint ex ullam beatae dolor fuga aut ducimus minus est.'
+                        currency: aliquam
+                        price: 9
+                        brand: 'Ergonomic multimedia openarchitecture'
+                        category: Apparel
+                        image: 'http://www.hettinger.biz/quod-sit-cupiditate-eaque-eveniet-et-nostrum-quae'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 46
+                        title: 'Self-enabling 6thgeneration contingency'
+                        description: 'Deleniti molestiae soluta nam hic ut quasi eum ea et.'
+                        currency: voluptatem
+                        price: 410
+                        brand: 'Customizable context-sensitive superstructure'
+                        category: Apparel
+                        image: 'http://www.swaniawski.com/aut-quidem-qui-in-facilis'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 47
+                        title: 'Synergized homogeneous knowledgebase'
+                        description: 'Occaecati est facilis illum quos quia.'
+                        currency: sed
+                        price: 58718774
+                        brand: 'Front-line global superstructure'
+                        category: Books
+                        image: 'http://www.swaniawski.com/ut-labore-nisi-aut-aut-illum.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 48
+                        title: 'Grass-roots zerotolerance definition'
+                        description: 'Velit et voluptate omnis odio vero numquam.'
+                        currency: consequatur
+                        price: 0
+                        brand: 'Intuitive impactful localareanetwork'
+                        category: Fashion
+                        image: 'http://jones.info/ut-voluptas-ipsum-possimus-illo-recusandae-quo'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 49
+                        title: 'Reverse-engineered context-sensitive encoding'
+                        description: 'Incidunt doloremque doloremque sint ipsum et.'
+                        currency: quibusdam
+                        price: 827587
+                        brand: 'Optional system-worthy utilisation'
+                        category: Gadgets
+                        image: 'https://dibbert.biz/ut-voluptas-dolorum-et-sed-dolorem.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 50
+                        title: 'Inverse bottom-line hub'
+                        description: 'Ducimus ut voluptatibus quas exercitationem.'
+                        currency: rerum
+                        price: 899694
+                        brand: 'Switchable high-level application'
+                        category: Gadgets
+                        image: 'http://www.brown.com/voluptatem-error-sint-facilis-velit-id-voluptatem.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 51
+                        title: 'Reverse-engineered asynchronous challenge'
+                        description: 'Doloribus est repudiandae consectetur et vel aut quia possimus quis.'
+                        currency: dolores
+                        price: 14886
+                        brand: 'Innovative mission-critical orchestration'
+                        category: Art
+                        image: 'https://www.jast.com/numquam-blanditiis-ullam-mollitia-ex-ullam-unde-voluptatem'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 52
+                        title: 'Function-based upward-trending systemengine'
+                        description: 'Soluta hic earum et magnam sed occaecati.'
+                        currency: aliquam
+                        price: 108
+                        brand: 'Fully-configurable zerotolerance toolset'
+                        category: Gadgets
+                        image: 'http://www.breitenberg.biz/quidem-minima-magni-dolorem-quia-voluptate-reprehenderit-voluptatibus'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 53
+                        title: 'Synergized tertiary utilisation'
+                        description: 'Eos quia reprehenderit sint commodi nostrum unde repellendus laboriosam eos aut voluptatibus.'
+                        currency: eos
+                        price: 860
+                        brand: 'Object-based methodical orchestration'
+                        category: Books
+                        image: 'http://wolff.info/quas-accusantium-inventore-commodi'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 54
+                        title: 'Public-key radical data-warehouse'
+                        description: 'Vero repellat minima id ut est sint autem sunt earum.'
+                        currency: provident
+                        price: 4702733
+                        brand: 'Future-proofed tangible algorithm'
+                        category: Gadgets
+                        image: 'https://lockman.net/consequuntur-a-accusamus-enim-consequatur.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 55
+                        title: 'Innovative mobile forecast'
+                        description: 'Nihil quo repudiandae amet nihil tempore ipsum dolorem placeat.'
+                        currency: ut
+                        price: 553
+                        brand: 'Mandatory user-facing extranet'
+                        category: Books
+                        image: 'http://bergnaum.biz/'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 56
+                        title: 'Diverse uniform capability'
+                        description: 'Dolor accusantium voluptatibus non cupiditate voluptate placeat in quo nam quam quisquam.'
+                        currency: consequatur
+                        price: 27
+                        brand: 'Robust client-driven time-frame'
+                        category: Books
+                        image: 'http://ohara.com/sunt-animi-et-iusto-nihil-vel-qui-et.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 57
+                        title: 'Cross-platform intangible framework'
+                        description: 'Delectus ut iure aut eligendi neque cum.'
+                        currency: ratione
+                        price: 41
+                        brand: 'Operative coherent time-frame'
+                        category: Fashion
+                        image: 'http://www.hudson.com/expedita-eos-aut-odit-consequatur'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 58
+                        title: 'Stand-alone solution-oriented projection'
+                        description: 'Ad quaerat aut itaque labore nesciunt neque fugiat illum maxime.'
+                        currency: ipsa
+                        price: 9946
+                        brand: 'Self-enabling foreground alliance'
+                        category: Sports
+                        image: 'http://www.white.com/nemo-perspiciatis-molestiae-doloribus-praesentium-sequi-hic-quo-et.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 59
+                        title: 'Customer-focused content-based model'
+                        description: 'Tempore et pariatur minus facilis error.'
+                        currency: magnam
+                        price: 80
+                        brand: 'Compatible global strategy'
+                        category: Gadgets
+                        image: 'http://www.gulgowski.com/quia-doloremque-sequi-aut-ut-rerum-sint-facilis-aut'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 60
+                        title: 'Persistent coherent attitude'
+                        description: 'Alias quo illo id delectus iste id.'
+                        currency: ut
+                        price: 14
+                        brand: 'Streamlined transitional hardware'
+                        category: Books
+                        image: 'http://www.cremin.com/assumenda-similique-recusandae-a-ut-et-harum'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                    items:
+                      type: object
+      tags:
+        - Endpoints
+      security: []
+  /api/products/add:
+    post:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses: {  }
+      tags:
+        - Endpoints
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  description: ''
+                  example: voluptate
+                description:
+                  type: string
+                  description: ''
+                  example: neque
+                currency:
+                  type: string
+                  description: ''
+                  example: voluptas
+                price:
+                  type: string
+                  description: ''
+                  example: qui
+                brand:
+                  type: string
+                  description: ''
+                  example: numquam
+                category:
+                  type: string
+                  description: ''
+                  example: dolor
+                image:
+                  type: string
+                  description: ''
+                  example: ullam
+              required:
+                - title
+                - description
+                - currency
+                - price
+                - brand
+                - category
+                - image
+      security: []
+  '/api/products/{product_id}':
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  products:
+                    id: 1
+                    title: 'Pre-emptive 24/7 paradigm'
+                    description: 'Necessitatibus delectus enim rerum repellendus asperiores ex assumenda dolor ad eos.'
+                    currency: nobis
+                    price: 6050
+                    brand: 'Pre-emptive interactive opensystem'
+                    category: Apparel
+                    image: 'http://www.rowe.com/'
+                    created_at: '2022-10-15T06:21:00.000000Z'
+                    updated_at: '2022-10-15T06:21:00.000000Z'
+                properties:
+                  products:
+                    type: object
+                    example:
+                      id: 1
+                      title: 'Pre-emptive 24/7 paradigm'
+                      description: 'Necessitatibus delectus enim rerum repellendus asperiores ex assumenda dolor ad eos.'
+                      currency: nobis
+                      price: 6050
+                      brand: 'Pre-emptive interactive opensystem'
+                      category: Apparel
+                      image: 'http://www.rowe.com/'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: product_id
+        description: 'The ID of the product.'
+        example: 1
+        required: true
+        schema:
+          type: integer
+  '/api/products/{category}/category':
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                example: []
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: category
+        description: ''
+        example: 1
+        required: true
+        schema:
+          type: integer
+  '/api/products/{product_id}/update':
+    put:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses: {  }
+      tags:
+        - Endpoints
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                title:
+                  type: string
+                  description: ''
+                  example: labore
+                description:
+                  type: string
+                  description: ''
+                  example: hic
+                currency:
+                  type: string
+                  description: ''
+                  example: alias
+                price:
+                  type: string
+                  description: ''
+                  example: similique
+                brand:
+                  type: string
+                  description: ''
+                  example: minus
+                category:
+                  type: string
+                  description: ''
+                  example: amet
+                image:
+                  type: string
+                  description: ''
+                  example: ratione
+              required:
+                - title
+                - description
+                - currency
+                - price
+                - brand
+                - category
+                - image
+      security: []
+    parameters:
+      -
+        in: path
+        name: product_id
+        description: 'The ID of the product.'
+        example: 1
+        required: true
+        schema:
+          type: integer
+  '/api/products/{product_id}/delete':
+    delete:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses: {  }
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: product_id
+        description: 'The ID of the product.'
+        example: 1
+        required: true
+        schema:
+          type: integer
+  '/api/products/{title}/search':
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                example: []
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: title
+        description: ''
+        example: 1
+        required: true
+        schema:
+          type: integer
+  /api/products/category/categories:
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  products:
+                    -
+                      id: 1
+                      title: 'Pre-emptive 24/7 paradigm'
+                      description: 'Necessitatibus delectus enim rerum repellendus asperiores ex assumenda dolor ad eos.'
+                      currency: nobis
+                      price: 6050
+                      brand: 'Pre-emptive interactive opensystem'
+                      category: Apparel
+                      image: 'http://www.rowe.com/'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 2
+                      title: 'Cloned assymetric frame'
+                      description: 'Quo dicta fugit dolorum porro molestiae pariatur earum culpa.'
+                      currency: doloribus
+                      price: 508
+                      brand: 'Pre-emptive exuding model'
+                      category: Sports
+                      image: 'http://stoltenberg.com/quaerat-odit-eius-sed-illum-ut-sapiente'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 3
+                      title: 'Right-sized composite structure'
+                      description: 'Vel quos cumque perspiciatis at explicabo unde quis.'
+                      currency: maiores
+                      price: 677
+                      brand: 'Organized value-added forecast'
+                      category: Books
+                      image: 'http://gutmann.info/nisi-est-aut-iure-voluptatibus'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 4
+                      title: 'Realigned dynamic strategy'
+                      description: 'Ipsa impedit dolores dolor itaque molestias et nisi dolores.'
+                      currency: perspiciatis
+                      price: 49
+                      brand: 'Synchronised intangible challenge'
+                      category: Apparel
+                      image: 'http://price.com/omnis-inventore-nihil-ut-nam-vitae-doloremque-beatae'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 5
+                      title: 'Object-based actuating array'
+                      description: 'Tempora quia et eligendi odit quia quas dicta nam.'
+                      currency: necessitatibus
+                      price: 759
+                      brand: 'Front-line multimedia info-mediaries'
+                      category: Books
+                      image: 'http://langosh.biz/similique-natus-et-veniam-id-minus.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 6
+                      title: 'User-friendly 6thgeneration functionalities'
+                      description: 'Ea consequatur quidem velit alias.'
+                      currency: omnis
+                      price: 83233
+                      brand: 'Balanced static interface'
+                      category: Gadgets
+                      image: 'http://www.runolfsson.net/sed-ad-quo-est-accusamus-veritatis-animi-culpa'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 7
+                      title: 'Reduced bottom-line neural-net'
+                      description: 'Vel placeat unde ex blanditiis officia praesentium nihil qui.'
+                      currency: esse
+                      price: 74922
+                      brand: 'Triple-buffered asynchronous capability'
+                      category: Sports
+                      image: 'http://sauer.com/nisi-vel-et-et-ut-iusto-suscipit-dolorem.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 8
+                      title: 'Multi-layered systemic solution'
+                      description: 'Quasi accusantium aut et enim accusantium accusamus.'
+                      currency: ex
+                      price: 7103
+                      brand: 'Advanced contextually-based extranet'
+                      category: Sports
+                      image: 'http://mccullough.biz/voluptatem-cum-doloribus-impedit-sit-fugit'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 9
+                      title: 'Programmable well-modulated model'
+                      description: 'Necessitatibus reiciendis pariatur temporibus maxime dicta culpa ipsam ipsa adipisci qui.'
+                      currency: est
+                      price: 94638
+                      brand: 'Enhanced executive strategy'
+                      category: Sports
+                      image: 'http://barton.org/quis-facere-tempore-est-eveniet-corrupti-voluptatem'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 10
+                      title: 'Automated discrete success'
+                      description: 'Iure illum adipisci molestias aut ut laboriosam enim soluta.'
+                      currency: facere
+                      price: 21090634
+                      brand: 'Vision-oriented modular openarchitecture'
+                      category: Gadgets
+                      image: 'https://www.zboncak.org/explicabo-dolorem-minus-iure-quaerat'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 11
+                      title: 'Self-enabling non-volatile processimprovement'
+                      description: 'Voluptatem quis dignissimos iusto cum nobis maxime magnam vitae.'
+                      currency: perferendis
+                      price: 3287
+                      brand: 'Reactive foreground systemengine'
+                      category: Gadgets
+                      image: 'http://kub.org/ducimus-sunt-ut-totam-quo.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 12
+                      title: 'Future-proofed leadingedge encoding'
+                      description: 'Aut autem consequuntur recusandae id quia architecto beatae iusto illo.'
+                      currency: et
+                      price: 5
+                      brand: 'Re-engineered eco-centric product'
+                      category: Gadgets
+                      image: 'http://williamson.com/itaque-minus-eveniet-perspiciatis-distinctio-sed-aut-totam-ut.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 13
+                      title: 'Automated zerodefect architecture'
+                      description: 'Eligendi tenetur expedita rem ab iusto rerum doloremque veniam ut.'
+                      currency: quaerat
+                      price: 20173967
+                      brand: 'Cross-group global workforce'
+                      category: Gadgets
+                      image: 'http://crooks.com/'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 14
+                      title: 'Multi-lateral content-based capability'
+                      description: 'Cumque quia officiis aut nulla qui quis.'
+                      currency: consequuntur
+                      price: 98866
+                      brand: 'Persevering uniform core'
+                      category: Apparel
+                      image: 'http://www.armstrong.info/possimus-libero-quas-eius-voluptas.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 15
+                      title: 'Quality-focused static matrices'
+                      description: 'Ut in aspernatur sint nesciunt tenetur.'
+                      currency: blanditiis
+                      price: 528393608
+                      brand: 'Reverse-engineered zerotolerance securedline'
+                      category: Fashion
+                      image: 'http://legros.org/aspernatur-et-sequi-repellat-dolorem-id-hic'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 16
+                      title: 'Persistent tertiary encoding'
+                      description: 'At voluptates fuga saepe dignissimos id sunt.'
+                      currency: itaque
+                      price: 8742039
+                      brand: 'Digitized 4thgeneration solution'
+                      category: Books
+                      image: 'https://harris.com/sit-rerum-sint-dolores-rerum-voluptate-aut.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 17
+                      title: 'Team-oriented 24hour internetsolution'
+                      description: 'Voluptates non consequatur quia eaque asperiores exercitationem ut consequatur ducimus.'
+                      currency: maxime
+                      price: 5560970
+                      brand: 'Diverse eco-centric product'
+                      category: Sports
+                      image: 'http://leffler.com/id-rerum-sed-earum-doloremque'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 18
+                      title: 'Future-proofed dynamic hub'
+                      description: 'Ut qui quia cum iusto voluptate.'
+                      currency: vel
+                      price: 12814
+                      brand: 'Pre-emptive tangible methodology'
+                      category: Art
+                      image: 'https://www.cummings.biz/eum-corrupti-ut-placeat-harum'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 19
+                      title: 'Multi-lateral coherent hardware'
+                      description: 'Pariatur voluptatibus maiores alias nesciunt totam ab ab est tenetur quae totam.'
+                      currency: quidem
+                      price: 1
+                      brand: 'Cross-platform grid-enabled product'
+                      category: Fashion
+                      image: 'http://morar.com/voluptatibus-eaque-inventore-voluptatem-distinctio-qui.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 20
+                      title: 'Implemented full-range task-force'
+                      description: 'Laboriosam quia qui vel quam eius dolore impedit reprehenderit fugiat voluptatem.'
+                      currency: aperiam
+                      price: 5733
+                      brand: 'De-engineered asynchronous software'
+                      category: Gadgets
+                      image: 'https://www.douglas.com/repudiandae-vel-magni-officia-voluptas-saepe-dolor-culpa'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 21
+                      title: 'Reduced client-driven challenge'
+                      description: 'Voluptatum ut odit cum aut et incidunt est similique explicabo culpa veritatis.'
+                      currency: et
+                      price: 0
+                      brand: 'Devolved assymetric customerloyalty'
+                      category: Apparel
+                      image: 'http://larson.com/'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 22
+                      title: 'Ergonomic multi-state capability'
+                      description: 'Voluptate ea dolor omnis deleniti harum sequi non enim tempore.'
+                      currency: magnam
+                      price: 6837285
+                      brand: 'Down-sized foreground flexibility'
+                      category: Sports
+                      image: 'https://www.stracke.com/voluptatem-minima-explicabo-illo-ipsam'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 23
+                      title: 'User-friendly holistic archive'
+                      description: 'Sit dolorum adipisci dicta qui voluptatem sequi et.'
+                      currency: sit
+                      price: 5048204
+                      brand: 'Enhanced 6thgeneration time-frame'
+                      category: Art
+                      image: 'http://www.nitzsche.com/omnis-tempora-aperiam-laudantium-quae.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 24
+                      title: 'Networked real-time workforce'
+                      description: 'Deleniti nihil suscipit omnis illum incidunt cumque.'
+                      currency: non
+                      price: 7404298
+                      brand: 'Universal well-modulated function'
+                      category: Gadgets
+                      image: 'http://mosciski.org/voluptatem-nisi-soluta-cupiditate-natus-qui.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 25
+                      title: 'Distributed grid-enabled initiative'
+                      description: 'Voluptatem unde aut quisquam dolor iusto blanditiis.'
+                      currency: laboriosam
+                      price: 678
+                      brand: 'Ergonomic coherent customerloyalty'
+                      category: Fashion
+                      image: 'http://lakin.com/repellendus-soluta-ut-ipsam-sit-ab-quas-fuga'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 26
+                      title: 'Function-based incremental budgetarymanagement'
+                      description: 'Hic iure veniam possimus ea minima velit cum qui.'
+                      currency: omnis
+                      price: 5
+                      brand: 'Profound dedicated forecast'
+                      category: Sports
+                      image: 'http://www.kertzmann.org/et-expedita-enim-ad-quia-beatae-hic'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 27
+                      title: 'Persevering local leverage'
+                      description: 'Voluptatem quo ut quo aut quod voluptas voluptate est corporis nulla.'
+                      currency: dolores
+                      price: 7378097
+                      brand: 'Networked non-volatile localareanetwork'
+                      category: Apparel
+                      image: 'https://king.com/exercitationem-consequuntur-iste-nihil-ab-ipsam-tempora-ab.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 28
+                      title: 'Automated dedicated moratorium'
+                      description: 'Rerum facilis tempora qui ullam sequi distinctio molestiae occaecati et in.'
+                      currency: quasi
+                      price: 26
+                      brand: 'Synchronised context-sensitive hub'
+                      category: Apparel
+                      image: 'http://roob.net/odio-quos-labore-rerum-libero-maxime-aut-aperiam-tenetur'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 29
+                      title: 'Cross-group neutral extranet'
+                      description: 'Rerum consequuntur velit exercitationem ratione inventore omnis voluptas commodi quis pariatur iste.'
+                      currency: dolorem
+                      price: 82
+                      brand: 'Profit-focused logistical capability'
+                      category: Gadgets
+                      image: 'http://glover.com/adipisci-minus-aut-quas-aut-omnis-suscipit.html'
+                      created_at: '2022-10-15T06:21:00.000000Z'
+                      updated_at: '2022-10-15T06:21:00.000000Z'
+                    -
+                      id: 30
+                      title: 'Mandatory logistical superstructure'
+                      description: 'Vero distinctio explicabo magnam consequatur sint pariatur.'
+                      currency: molestias
+                      price: 749528
+                      brand: 'Programmable 24/7 securedline'
+                      category: Sports
+                      image: 'http://www.hegmann.com/cumque-omnis-dolor-dolore-deserunt'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 31
+                      title: 'Enterprise-wide web-enabled parallelism'
+                      description: 'Voluptatibus eos aut et qui sunt adipisci voluptas.'
+                      currency: magni
+                      price: 969810362
+                      brand: 'Proactive explicit instructionset'
+                      category: Apparel
+                      image: 'http://harvey.com/ut-ut-nemo-voluptatem-aut-laborum-eum'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 32
+                      title: 'Object-based 3rdgeneration toolset'
+                      description: 'Ut laboriosam dolores sequi eveniet voluptatem aut.'
+                      currency: recusandae
+                      price: 6
+                      brand: 'Vision-oriented bi-directional openarchitecture'
+                      category: Books
+                      image: 'https://kassulke.com/deserunt-magni-voluptates-sed-non-maiores.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 33
+                      title: 'Re-engineered high-level flexibility'
+                      description: 'Deserunt magni est qui et alias sunt quia.'
+                      currency: laboriosam
+                      price: 61
+                      brand: 'Operative multimedia website'
+                      category: Sports
+                      image: 'https://www.huel.org/autem-magnam-et-sed-quia-quo-ea-quia'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 34
+                      title: 'Upgradable background encryption'
+                      description: 'Deleniti eos sint consequatur fugiat doloribus optio cumque sunt aut.'
+                      currency: deleniti
+                      price: 4561406
+                      brand: 'Universal executive extranet'
+                      category: Sports
+                      image: 'http://www.schoen.org/officia-et-corporis-consequatur.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 35
+                      title: 'Synergistic user-facing approach'
+                      description: 'Consectetur tenetur itaque ut molestiae et asperiores ut ipsum recusandae.'
+                      currency: voluptatibus
+                      price: 56704903
+                      brand: 'Open-architected context-sensitive encoding'
+                      category: Apparel
+                      image: 'http://rohan.org/blanditiis-autem-placeat-minus'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 36
+                      title: 'Phased homogeneous standardization'
+                      description: 'Voluptates veniam at maiores accusamus dolor dolor mollitia quia.'
+                      currency: molestiae
+                      price: 64
+                      brand: 'Up-sized multi-state neural-net'
+                      category: Art
+                      image: 'https://schuster.net/quo-accusantium-reprehenderit-commodi-repellat-facere.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 37
+                      title: 'Team-oriented leadingedge focusgroup'
+                      description: 'Ut ex dicta ipsum est et rerum repellat.'
+                      currency: quibusdam
+                      price: 5
+                      brand: 'Diverse exuding knowledgebase'
+                      category: Books
+                      image: 'http://www.greenholt.org/qui-beatae-eaque-tenetur-iure-error-perferendis-perferendis.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 38
+                      title: 'Multi-channelled client-driven internetsolution'
+                      description: 'Quod eos voluptatibus alias commodi et voluptas magni aliquam eum quaerat.'
+                      currency: ea
+                      price: 270599142
+                      brand: 'Diverse radical interface'
+                      category: Apparel
+                      image: 'http://www.becker.net/omnis-ad-quis-adipisci-dolor-quos'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 39
+                      title: 'Secured background data-warehouse'
+                      description: 'Quibusdam ad rerum esse aperiam voluptatum occaecati nemo atque fugiat dolores.'
+                      currency: et
+                      price: 5
+                      brand: 'Down-sized discrete hardware'
+                      category: Apparel
+                      image: 'http://ullrich.com/et-eius-voluptatibus-id-dolorem-sint-nihil-eius'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 40
+                      title: 'Polarised empowering customerloyalty'
+                      description: 'Dignissimos vitae impedit porro ut natus consequatur ex aut in.'
+                      currency: qui
+                      price: 8
+                      brand: 'Networked contextually-based artificialintelligence'
+                      category: Gadgets
+                      image: 'http://www.lockman.biz/'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 41
+                      title: 'Organic high-level website'
+                      description: 'Numquam est et sint rerum et.'
+                      currency: qui
+                      price: 54041762
+                      brand: 'Enterprise-wide responsive superstructure'
+                      category: Gadgets
+                      image: 'https://www.lowe.info/eius-quaerat-optio-voluptate-quae-ex'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 42
+                      title: 'Fully-configurable attitude-oriented archive'
+                      description: 'Repellendus magnam saepe aspernatur excepturi.'
+                      currency: amet
+                      price: 84433
+                      brand: 'Realigned intangible encryption'
+                      category: Apparel
+                      image: 'http://www.paucek.info/ipsam-et-commodi-magni-rerum-asperiores-cum-est-voluptate'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 43
+                      title: 'Persistent upward-trending capability'
+                      description: 'Reprehenderit quod quia autem non velit.'
+                      currency: et
+                      price: 4718
+                      brand: 'Centralized 24/7 protocol'
+                      category: Gadgets
+                      image: 'http://www.labadie.com/'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 44
+                      title: 'Horizontal content-based systemengine'
+                      description: 'Soluta nisi dolore accusantium magni laudantium est.'
+                      currency: enim
+                      price: 234095650
+                      brand: 'Up-sized incremental forecast'
+                      category: Gadgets
+                      image: 'https://www.bartell.com/ea-voluptatum-facere-assumenda-dolores'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 45
+                      title: 'Cross-platform disintermediate standardization'
+                      description: 'Sint ex ullam beatae dolor fuga aut ducimus minus est.'
+                      currency: aliquam
+                      price: 9
+                      brand: 'Ergonomic multimedia openarchitecture'
+                      category: Apparel
+                      image: 'http://www.hettinger.biz/quod-sit-cupiditate-eaque-eveniet-et-nostrum-quae'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 46
+                      title: 'Self-enabling 6thgeneration contingency'
+                      description: 'Deleniti molestiae soluta nam hic ut quasi eum ea et.'
+                      currency: voluptatem
+                      price: 410
+                      brand: 'Customizable context-sensitive superstructure'
+                      category: Apparel
+                      image: 'http://www.swaniawski.com/aut-quidem-qui-in-facilis'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 47
+                      title: 'Synergized homogeneous knowledgebase'
+                      description: 'Occaecati est facilis illum quos quia.'
+                      currency: sed
+                      price: 58718774
+                      brand: 'Front-line global superstructure'
+                      category: Books
+                      image: 'http://www.swaniawski.com/ut-labore-nisi-aut-aut-illum.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 48
+                      title: 'Grass-roots zerotolerance definition'
+                      description: 'Velit et voluptate omnis odio vero numquam.'
+                      currency: consequatur
+                      price: 0
+                      brand: 'Intuitive impactful localareanetwork'
+                      category: Fashion
+                      image: 'http://jones.info/ut-voluptas-ipsum-possimus-illo-recusandae-quo'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 49
+                      title: 'Reverse-engineered context-sensitive encoding'
+                      description: 'Incidunt doloremque doloremque sint ipsum et.'
+                      currency: quibusdam
+                      price: 827587
+                      brand: 'Optional system-worthy utilisation'
+                      category: Gadgets
+                      image: 'https://dibbert.biz/ut-voluptas-dolorum-et-sed-dolorem.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 50
+                      title: 'Inverse bottom-line hub'
+                      description: 'Ducimus ut voluptatibus quas exercitationem.'
+                      currency: rerum
+                      price: 899694
+                      brand: 'Switchable high-level application'
+                      category: Gadgets
+                      image: 'http://www.brown.com/voluptatem-error-sint-facilis-velit-id-voluptatem.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 51
+                      title: 'Reverse-engineered asynchronous challenge'
+                      description: 'Doloribus est repudiandae consectetur et vel aut quia possimus quis.'
+                      currency: dolores
+                      price: 14886
+                      brand: 'Innovative mission-critical orchestration'
+                      category: Art
+                      image: 'https://www.jast.com/numquam-blanditiis-ullam-mollitia-ex-ullam-unde-voluptatem'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 52
+                      title: 'Function-based upward-trending systemengine'
+                      description: 'Soluta hic earum et magnam sed occaecati.'
+                      currency: aliquam
+                      price: 108
+                      brand: 'Fully-configurable zerotolerance toolset'
+                      category: Gadgets
+                      image: 'http://www.breitenberg.biz/quidem-minima-magni-dolorem-quia-voluptate-reprehenderit-voluptatibus'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 53
+                      title: 'Synergized tertiary utilisation'
+                      description: 'Eos quia reprehenderit sint commodi nostrum unde repellendus laboriosam eos aut voluptatibus.'
+                      currency: eos
+                      price: 860
+                      brand: 'Object-based methodical orchestration'
+                      category: Books
+                      image: 'http://wolff.info/quas-accusantium-inventore-commodi'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 54
+                      title: 'Public-key radical data-warehouse'
+                      description: 'Vero repellat minima id ut est sint autem sunt earum.'
+                      currency: provident
+                      price: 4702733
+                      brand: 'Future-proofed tangible algorithm'
+                      category: Gadgets
+                      image: 'https://lockman.net/consequuntur-a-accusamus-enim-consequatur.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 55
+                      title: 'Innovative mobile forecast'
+                      description: 'Nihil quo repudiandae amet nihil tempore ipsum dolorem placeat.'
+                      currency: ut
+                      price: 553
+                      brand: 'Mandatory user-facing extranet'
+                      category: Books
+                      image: 'http://bergnaum.biz/'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 56
+                      title: 'Diverse uniform capability'
+                      description: 'Dolor accusantium voluptatibus non cupiditate voluptate placeat in quo nam quam quisquam.'
+                      currency: consequatur
+                      price: 27
+                      brand: 'Robust client-driven time-frame'
+                      category: Books
+                      image: 'http://ohara.com/sunt-animi-et-iusto-nihil-vel-qui-et.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 57
+                      title: 'Cross-platform intangible framework'
+                      description: 'Delectus ut iure aut eligendi neque cum.'
+                      currency: ratione
+                      price: 41
+                      brand: 'Operative coherent time-frame'
+                      category: Fashion
+                      image: 'http://www.hudson.com/expedita-eos-aut-odit-consequatur'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 58
+                      title: 'Stand-alone solution-oriented projection'
+                      description: 'Ad quaerat aut itaque labore nesciunt neque fugiat illum maxime.'
+                      currency: ipsa
+                      price: 9946
+                      brand: 'Self-enabling foreground alliance'
+                      category: Sports
+                      image: 'http://www.white.com/nemo-perspiciatis-molestiae-doloribus-praesentium-sequi-hic-quo-et.html'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 59
+                      title: 'Customer-focused content-based model'
+                      description: 'Tempore et pariatur minus facilis error.'
+                      currency: magnam
+                      price: 80
+                      brand: 'Compatible global strategy'
+                      category: Gadgets
+                      image: 'http://www.gulgowski.com/quia-doloremque-sequi-aut-ut-rerum-sint-facilis-aut'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                    -
+                      id: 60
+                      title: 'Persistent coherent attitude'
+                      description: 'Alias quo illo id delectus iste id.'
+                      currency: ut
+                      price: 14
+                      brand: 'Streamlined transitional hardware'
+                      category: Books
+                      image: 'http://www.cremin.com/assumenda-similique-recusandae-a-ut-et-harum'
+                      created_at: '2022-10-15T06:21:01.000000Z'
+                      updated_at: '2022-10-15T06:21:01.000000Z'
+                properties:
+                  products:
+                    type: array
+                    example:
+                      -
+                        id: 1
+                        title: 'Pre-emptive 24/7 paradigm'
+                        description: 'Necessitatibus delectus enim rerum repellendus asperiores ex assumenda dolor ad eos.'
+                        currency: nobis
+                        price: 6050
+                        brand: 'Pre-emptive interactive opensystem'
+                        category: Apparel
+                        image: 'http://www.rowe.com/'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 2
+                        title: 'Cloned assymetric frame'
+                        description: 'Quo dicta fugit dolorum porro molestiae pariatur earum culpa.'
+                        currency: doloribus
+                        price: 508
+                        brand: 'Pre-emptive exuding model'
+                        category: Sports
+                        image: 'http://stoltenberg.com/quaerat-odit-eius-sed-illum-ut-sapiente'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 3
+                        title: 'Right-sized composite structure'
+                        description: 'Vel quos cumque perspiciatis at explicabo unde quis.'
+                        currency: maiores
+                        price: 677
+                        brand: 'Organized value-added forecast'
+                        category: Books
+                        image: 'http://gutmann.info/nisi-est-aut-iure-voluptatibus'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 4
+                        title: 'Realigned dynamic strategy'
+                        description: 'Ipsa impedit dolores dolor itaque molestias et nisi dolores.'
+                        currency: perspiciatis
+                        price: 49
+                        brand: 'Synchronised intangible challenge'
+                        category: Apparel
+                        image: 'http://price.com/omnis-inventore-nihil-ut-nam-vitae-doloremque-beatae'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 5
+                        title: 'Object-based actuating array'
+                        description: 'Tempora quia et eligendi odit quia quas dicta nam.'
+                        currency: necessitatibus
+                        price: 759
+                        brand: 'Front-line multimedia info-mediaries'
+                        category: Books
+                        image: 'http://langosh.biz/similique-natus-et-veniam-id-minus.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 6
+                        title: 'User-friendly 6thgeneration functionalities'
+                        description: 'Ea consequatur quidem velit alias.'
+                        currency: omnis
+                        price: 83233
+                        brand: 'Balanced static interface'
+                        category: Gadgets
+                        image: 'http://www.runolfsson.net/sed-ad-quo-est-accusamus-veritatis-animi-culpa'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 7
+                        title: 'Reduced bottom-line neural-net'
+                        description: 'Vel placeat unde ex blanditiis officia praesentium nihil qui.'
+                        currency: esse
+                        price: 74922
+                        brand: 'Triple-buffered asynchronous capability'
+                        category: Sports
+                        image: 'http://sauer.com/nisi-vel-et-et-ut-iusto-suscipit-dolorem.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 8
+                        title: 'Multi-layered systemic solution'
+                        description: 'Quasi accusantium aut et enim accusantium accusamus.'
+                        currency: ex
+                        price: 7103
+                        brand: 'Advanced contextually-based extranet'
+                        category: Sports
+                        image: 'http://mccullough.biz/voluptatem-cum-doloribus-impedit-sit-fugit'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 9
+                        title: 'Programmable well-modulated model'
+                        description: 'Necessitatibus reiciendis pariatur temporibus maxime dicta culpa ipsam ipsa adipisci qui.'
+                        currency: est
+                        price: 94638
+                        brand: 'Enhanced executive strategy'
+                        category: Sports
+                        image: 'http://barton.org/quis-facere-tempore-est-eveniet-corrupti-voluptatem'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 10
+                        title: 'Automated discrete success'
+                        description: 'Iure illum adipisci molestias aut ut laboriosam enim soluta.'
+                        currency: facere
+                        price: 21090634
+                        brand: 'Vision-oriented modular openarchitecture'
+                        category: Gadgets
+                        image: 'https://www.zboncak.org/explicabo-dolorem-minus-iure-quaerat'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 11
+                        title: 'Self-enabling non-volatile processimprovement'
+                        description: 'Voluptatem quis dignissimos iusto cum nobis maxime magnam vitae.'
+                        currency: perferendis
+                        price: 3287
+                        brand: 'Reactive foreground systemengine'
+                        category: Gadgets
+                        image: 'http://kub.org/ducimus-sunt-ut-totam-quo.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 12
+                        title: 'Future-proofed leadingedge encoding'
+                        description: 'Aut autem consequuntur recusandae id quia architecto beatae iusto illo.'
+                        currency: et
+                        price: 5
+                        brand: 'Re-engineered eco-centric product'
+                        category: Gadgets
+                        image: 'http://williamson.com/itaque-minus-eveniet-perspiciatis-distinctio-sed-aut-totam-ut.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 13
+                        title: 'Automated zerodefect architecture'
+                        description: 'Eligendi tenetur expedita rem ab iusto rerum doloremque veniam ut.'
+                        currency: quaerat
+                        price: 20173967
+                        brand: 'Cross-group global workforce'
+                        category: Gadgets
+                        image: 'http://crooks.com/'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 14
+                        title: 'Multi-lateral content-based capability'
+                        description: 'Cumque quia officiis aut nulla qui quis.'
+                        currency: consequuntur
+                        price: 98866
+                        brand: 'Persevering uniform core'
+                        category: Apparel
+                        image: 'http://www.armstrong.info/possimus-libero-quas-eius-voluptas.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 15
+                        title: 'Quality-focused static matrices'
+                        description: 'Ut in aspernatur sint nesciunt tenetur.'
+                        currency: blanditiis
+                        price: 528393608
+                        brand: 'Reverse-engineered zerotolerance securedline'
+                        category: Fashion
+                        image: 'http://legros.org/aspernatur-et-sequi-repellat-dolorem-id-hic'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 16
+                        title: 'Persistent tertiary encoding'
+                        description: 'At voluptates fuga saepe dignissimos id sunt.'
+                        currency: itaque
+                        price: 8742039
+                        brand: 'Digitized 4thgeneration solution'
+                        category: Books
+                        image: 'https://harris.com/sit-rerum-sint-dolores-rerum-voluptate-aut.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 17
+                        title: 'Team-oriented 24hour internetsolution'
+                        description: 'Voluptates non consequatur quia eaque asperiores exercitationem ut consequatur ducimus.'
+                        currency: maxime
+                        price: 5560970
+                        brand: 'Diverse eco-centric product'
+                        category: Sports
+                        image: 'http://leffler.com/id-rerum-sed-earum-doloremque'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 18
+                        title: 'Future-proofed dynamic hub'
+                        description: 'Ut qui quia cum iusto voluptate.'
+                        currency: vel
+                        price: 12814
+                        brand: 'Pre-emptive tangible methodology'
+                        category: Art
+                        image: 'https://www.cummings.biz/eum-corrupti-ut-placeat-harum'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 19
+                        title: 'Multi-lateral coherent hardware'
+                        description: 'Pariatur voluptatibus maiores alias nesciunt totam ab ab est tenetur quae totam.'
+                        currency: quidem
+                        price: 1
+                        brand: 'Cross-platform grid-enabled product'
+                        category: Fashion
+                        image: 'http://morar.com/voluptatibus-eaque-inventore-voluptatem-distinctio-qui.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 20
+                        title: 'Implemented full-range task-force'
+                        description: 'Laboriosam quia qui vel quam eius dolore impedit reprehenderit fugiat voluptatem.'
+                        currency: aperiam
+                        price: 5733
+                        brand: 'De-engineered asynchronous software'
+                        category: Gadgets
+                        image: 'https://www.douglas.com/repudiandae-vel-magni-officia-voluptas-saepe-dolor-culpa'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 21
+                        title: 'Reduced client-driven challenge'
+                        description: 'Voluptatum ut odit cum aut et incidunt est similique explicabo culpa veritatis.'
+                        currency: et
+                        price: 0
+                        brand: 'Devolved assymetric customerloyalty'
+                        category: Apparel
+                        image: 'http://larson.com/'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 22
+                        title: 'Ergonomic multi-state capability'
+                        description: 'Voluptate ea dolor omnis deleniti harum sequi non enim tempore.'
+                        currency: magnam
+                        price: 6837285
+                        brand: 'Down-sized foreground flexibility'
+                        category: Sports
+                        image: 'https://www.stracke.com/voluptatem-minima-explicabo-illo-ipsam'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 23
+                        title: 'User-friendly holistic archive'
+                        description: 'Sit dolorum adipisci dicta qui voluptatem sequi et.'
+                        currency: sit
+                        price: 5048204
+                        brand: 'Enhanced 6thgeneration time-frame'
+                        category: Art
+                        image: 'http://www.nitzsche.com/omnis-tempora-aperiam-laudantium-quae.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 24
+                        title: 'Networked real-time workforce'
+                        description: 'Deleniti nihil suscipit omnis illum incidunt cumque.'
+                        currency: non
+                        price: 7404298
+                        brand: 'Universal well-modulated function'
+                        category: Gadgets
+                        image: 'http://mosciski.org/voluptatem-nisi-soluta-cupiditate-natus-qui.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 25
+                        title: 'Distributed grid-enabled initiative'
+                        description: 'Voluptatem unde aut quisquam dolor iusto blanditiis.'
+                        currency: laboriosam
+                        price: 678
+                        brand: 'Ergonomic coherent customerloyalty'
+                        category: Fashion
+                        image: 'http://lakin.com/repellendus-soluta-ut-ipsam-sit-ab-quas-fuga'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 26
+                        title: 'Function-based incremental budgetarymanagement'
+                        description: 'Hic iure veniam possimus ea minima velit cum qui.'
+                        currency: omnis
+                        price: 5
+                        brand: 'Profound dedicated forecast'
+                        category: Sports
+                        image: 'http://www.kertzmann.org/et-expedita-enim-ad-quia-beatae-hic'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 27
+                        title: 'Persevering local leverage'
+                        description: 'Voluptatem quo ut quo aut quod voluptas voluptate est corporis nulla.'
+                        currency: dolores
+                        price: 7378097
+                        brand: 'Networked non-volatile localareanetwork'
+                        category: Apparel
+                        image: 'https://king.com/exercitationem-consequuntur-iste-nihil-ab-ipsam-tempora-ab.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 28
+                        title: 'Automated dedicated moratorium'
+                        description: 'Rerum facilis tempora qui ullam sequi distinctio molestiae occaecati et in.'
+                        currency: quasi
+                        price: 26
+                        brand: 'Synchronised context-sensitive hub'
+                        category: Apparel
+                        image: 'http://roob.net/odio-quos-labore-rerum-libero-maxime-aut-aperiam-tenetur'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 29
+                        title: 'Cross-group neutral extranet'
+                        description: 'Rerum consequuntur velit exercitationem ratione inventore omnis voluptas commodi quis pariatur iste.'
+                        currency: dolorem
+                        price: 82
+                        brand: 'Profit-focused logistical capability'
+                        category: Gadgets
+                        image: 'http://glover.com/adipisci-minus-aut-quas-aut-omnis-suscipit.html'
+                        created_at: '2022-10-15T06:21:00.000000Z'
+                        updated_at: '2022-10-15T06:21:00.000000Z'
+                      -
+                        id: 30
+                        title: 'Mandatory logistical superstructure'
+                        description: 'Vero distinctio explicabo magnam consequatur sint pariatur.'
+                        currency: molestias
+                        price: 749528
+                        brand: 'Programmable 24/7 securedline'
+                        category: Sports
+                        image: 'http://www.hegmann.com/cumque-omnis-dolor-dolore-deserunt'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 31
+                        title: 'Enterprise-wide web-enabled parallelism'
+                        description: 'Voluptatibus eos aut et qui sunt adipisci voluptas.'
+                        currency: magni
+                        price: 969810362
+                        brand: 'Proactive explicit instructionset'
+                        category: Apparel
+                        image: 'http://harvey.com/ut-ut-nemo-voluptatem-aut-laborum-eum'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 32
+                        title: 'Object-based 3rdgeneration toolset'
+                        description: 'Ut laboriosam dolores sequi eveniet voluptatem aut.'
+                        currency: recusandae
+                        price: 6
+                        brand: 'Vision-oriented bi-directional openarchitecture'
+                        category: Books
+                        image: 'https://kassulke.com/deserunt-magni-voluptates-sed-non-maiores.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 33
+                        title: 'Re-engineered high-level flexibility'
+                        description: 'Deserunt magni est qui et alias sunt quia.'
+                        currency: laboriosam
+                        price: 61
+                        brand: 'Operative multimedia website'
+                        category: Sports
+                        image: 'https://www.huel.org/autem-magnam-et-sed-quia-quo-ea-quia'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 34
+                        title: 'Upgradable background encryption'
+                        description: 'Deleniti eos sint consequatur fugiat doloribus optio cumque sunt aut.'
+                        currency: deleniti
+                        price: 4561406
+                        brand: 'Universal executive extranet'
+                        category: Sports
+                        image: 'http://www.schoen.org/officia-et-corporis-consequatur.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 35
+                        title: 'Synergistic user-facing approach'
+                        description: 'Consectetur tenetur itaque ut molestiae et asperiores ut ipsum recusandae.'
+                        currency: voluptatibus
+                        price: 56704903
+                        brand: 'Open-architected context-sensitive encoding'
+                        category: Apparel
+                        image: 'http://rohan.org/blanditiis-autem-placeat-minus'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 36
+                        title: 'Phased homogeneous standardization'
+                        description: 'Voluptates veniam at maiores accusamus dolor dolor mollitia quia.'
+                        currency: molestiae
+                        price: 64
+                        brand: 'Up-sized multi-state neural-net'
+                        category: Art
+                        image: 'https://schuster.net/quo-accusantium-reprehenderit-commodi-repellat-facere.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 37
+                        title: 'Team-oriented leadingedge focusgroup'
+                        description: 'Ut ex dicta ipsum est et rerum repellat.'
+                        currency: quibusdam
+                        price: 5
+                        brand: 'Diverse exuding knowledgebase'
+                        category: Books
+                        image: 'http://www.greenholt.org/qui-beatae-eaque-tenetur-iure-error-perferendis-perferendis.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 38
+                        title: 'Multi-channelled client-driven internetsolution'
+                        description: 'Quod eos voluptatibus alias commodi et voluptas magni aliquam eum quaerat.'
+                        currency: ea
+                        price: 270599142
+                        brand: 'Diverse radical interface'
+                        category: Apparel
+                        image: 'http://www.becker.net/omnis-ad-quis-adipisci-dolor-quos'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 39
+                        title: 'Secured background data-warehouse'
+                        description: 'Quibusdam ad rerum esse aperiam voluptatum occaecati nemo atque fugiat dolores.'
+                        currency: et
+                        price: 5
+                        brand: 'Down-sized discrete hardware'
+                        category: Apparel
+                        image: 'http://ullrich.com/et-eius-voluptatibus-id-dolorem-sint-nihil-eius'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 40
+                        title: 'Polarised empowering customerloyalty'
+                        description: 'Dignissimos vitae impedit porro ut natus consequatur ex aut in.'
+                        currency: qui
+                        price: 8
+                        brand: 'Networked contextually-based artificialintelligence'
+                        category: Gadgets
+                        image: 'http://www.lockman.biz/'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 41
+                        title: 'Organic high-level website'
+                        description: 'Numquam est et sint rerum et.'
+                        currency: qui
+                        price: 54041762
+                        brand: 'Enterprise-wide responsive superstructure'
+                        category: Gadgets
+                        image: 'https://www.lowe.info/eius-quaerat-optio-voluptate-quae-ex'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 42
+                        title: 'Fully-configurable attitude-oriented archive'
+                        description: 'Repellendus magnam saepe aspernatur excepturi.'
+                        currency: amet
+                        price: 84433
+                        brand: 'Realigned intangible encryption'
+                        category: Apparel
+                        image: 'http://www.paucek.info/ipsam-et-commodi-magni-rerum-asperiores-cum-est-voluptate'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 43
+                        title: 'Persistent upward-trending capability'
+                        description: 'Reprehenderit quod quia autem non velit.'
+                        currency: et
+                        price: 4718
+                        brand: 'Centralized 24/7 protocol'
+                        category: Gadgets
+                        image: 'http://www.labadie.com/'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 44
+                        title: 'Horizontal content-based systemengine'
+                        description: 'Soluta nisi dolore accusantium magni laudantium est.'
+                        currency: enim
+                        price: 234095650
+                        brand: 'Up-sized incremental forecast'
+                        category: Gadgets
+                        image: 'https://www.bartell.com/ea-voluptatum-facere-assumenda-dolores'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 45
+                        title: 'Cross-platform disintermediate standardization'
+                        description: 'Sint ex ullam beatae dolor fuga aut ducimus minus est.'
+                        currency: aliquam
+                        price: 9
+                        brand: 'Ergonomic multimedia openarchitecture'
+                        category: Apparel
+                        image: 'http://www.hettinger.biz/quod-sit-cupiditate-eaque-eveniet-et-nostrum-quae'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 46
+                        title: 'Self-enabling 6thgeneration contingency'
+                        description: 'Deleniti molestiae soluta nam hic ut quasi eum ea et.'
+                        currency: voluptatem
+                        price: 410
+                        brand: 'Customizable context-sensitive superstructure'
+                        category: Apparel
+                        image: 'http://www.swaniawski.com/aut-quidem-qui-in-facilis'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 47
+                        title: 'Synergized homogeneous knowledgebase'
+                        description: 'Occaecati est facilis illum quos quia.'
+                        currency: sed
+                        price: 58718774
+                        brand: 'Front-line global superstructure'
+                        category: Books
+                        image: 'http://www.swaniawski.com/ut-labore-nisi-aut-aut-illum.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 48
+                        title: 'Grass-roots zerotolerance definition'
+                        description: 'Velit et voluptate omnis odio vero numquam.'
+                        currency: consequatur
+                        price: 0
+                        brand: 'Intuitive impactful localareanetwork'
+                        category: Fashion
+                        image: 'http://jones.info/ut-voluptas-ipsum-possimus-illo-recusandae-quo'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 49
+                        title: 'Reverse-engineered context-sensitive encoding'
+                        description: 'Incidunt doloremque doloremque sint ipsum et.'
+                        currency: quibusdam
+                        price: 827587
+                        brand: 'Optional system-worthy utilisation'
+                        category: Gadgets
+                        image: 'https://dibbert.biz/ut-voluptas-dolorum-et-sed-dolorem.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 50
+                        title: 'Inverse bottom-line hub'
+                        description: 'Ducimus ut voluptatibus quas exercitationem.'
+                        currency: rerum
+                        price: 899694
+                        brand: 'Switchable high-level application'
+                        category: Gadgets
+                        image: 'http://www.brown.com/voluptatem-error-sint-facilis-velit-id-voluptatem.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 51
+                        title: 'Reverse-engineered asynchronous challenge'
+                        description: 'Doloribus est repudiandae consectetur et vel aut quia possimus quis.'
+                        currency: dolores
+                        price: 14886
+                        brand: 'Innovative mission-critical orchestration'
+                        category: Art
+                        image: 'https://www.jast.com/numquam-blanditiis-ullam-mollitia-ex-ullam-unde-voluptatem'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 52
+                        title: 'Function-based upward-trending systemengine'
+                        description: 'Soluta hic earum et magnam sed occaecati.'
+                        currency: aliquam
+                        price: 108
+                        brand: 'Fully-configurable zerotolerance toolset'
+                        category: Gadgets
+                        image: 'http://www.breitenberg.biz/quidem-minima-magni-dolorem-quia-voluptate-reprehenderit-voluptatibus'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 53
+                        title: 'Synergized tertiary utilisation'
+                        description: 'Eos quia reprehenderit sint commodi nostrum unde repellendus laboriosam eos aut voluptatibus.'
+                        currency: eos
+                        price: 860
+                        brand: 'Object-based methodical orchestration'
+                        category: Books
+                        image: 'http://wolff.info/quas-accusantium-inventore-commodi'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 54
+                        title: 'Public-key radical data-warehouse'
+                        description: 'Vero repellat minima id ut est sint autem sunt earum.'
+                        currency: provident
+                        price: 4702733
+                        brand: 'Future-proofed tangible algorithm'
+                        category: Gadgets
+                        image: 'https://lockman.net/consequuntur-a-accusamus-enim-consequatur.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 55
+                        title: 'Innovative mobile forecast'
+                        description: 'Nihil quo repudiandae amet nihil tempore ipsum dolorem placeat.'
+                        currency: ut
+                        price: 553
+                        brand: 'Mandatory user-facing extranet'
+                        category: Books
+                        image: 'http://bergnaum.biz/'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 56
+                        title: 'Diverse uniform capability'
+                        description: 'Dolor accusantium voluptatibus non cupiditate voluptate placeat in quo nam quam quisquam.'
+                        currency: consequatur
+                        price: 27
+                        brand: 'Robust client-driven time-frame'
+                        category: Books
+                        image: 'http://ohara.com/sunt-animi-et-iusto-nihil-vel-qui-et.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 57
+                        title: 'Cross-platform intangible framework'
+                        description: 'Delectus ut iure aut eligendi neque cum.'
+                        currency: ratione
+                        price: 41
+                        brand: 'Operative coherent time-frame'
+                        category: Fashion
+                        image: 'http://www.hudson.com/expedita-eos-aut-odit-consequatur'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 58
+                        title: 'Stand-alone solution-oriented projection'
+                        description: 'Ad quaerat aut itaque labore nesciunt neque fugiat illum maxime.'
+                        currency: ipsa
+                        price: 9946
+                        brand: 'Self-enabling foreground alliance'
+                        category: Sports
+                        image: 'http://www.white.com/nemo-perspiciatis-molestiae-doloribus-praesentium-sequi-hic-quo-et.html'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 59
+                        title: 'Customer-focused content-based model'
+                        description: 'Tempore et pariatur minus facilis error.'
+                        currency: magnam
+                        price: 80
+                        brand: 'Compatible global strategy'
+                        category: Gadgets
+                        image: 'http://www.gulgowski.com/quia-doloremque-sequi-aut-ut-rerum-sint-facilis-aut'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                      -
+                        id: 60
+                        title: 'Persistent coherent attitude'
+                        description: 'Alias quo illo id delectus iste id.'
+                        currency: ut
+                        price: 14
+                        brand: 'Streamlined transitional hardware'
+                        category: Books
+                        image: 'http://www.cremin.com/assumenda-similique-recusandae-a-ut-et-harum'
+                        created_at: '2022-10-15T06:21:01.000000Z'
+                        updated_at: '2022-10-15T06:21:01.000000Z'
+                    items:
+                      type: object
+      tags:
+        - Endpoints
+      security: []
+  '/api/products/category/{category_name}':
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        200:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                example: []
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: category_name
+        description: ''
+        example: facere
+        required: true
+        schema:
+          type: string
+  /api/user:
+    get:
+      summary: ''
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+tags:
+  -
+    name: Endpoints
+    description: ''
